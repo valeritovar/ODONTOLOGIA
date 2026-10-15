@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botón Agendar Cita - Demo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="btn-agar-cita.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            min-height: 100vh;
+        }
+        
+        .demo-section {
+            max-width: 800px;
+            margin: 0 auto 40px;
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .demo-title {
+            text-align: center;
+            color: var(--azul-clinico);
+            margin-bottom: 30px;
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        
+        .demo-subtitle {
+            text-align: center;
+            color: var(--gris-medio);
+            margin-bottom: 40px;
+            font-size: 1.1rem;
+        }
+        
+        .btn-showcase {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .btn-example {
+            text-align: center;
+            padding: 30px;
+            background: var(--gris-claro);
+            border-radius: 15px;
+        }
+        
+        .btn-example h4 {
+            color: var(--azul-clinico);
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        
+        .code-example {
+            background: #2d3748;
+            color: #e2e8f0;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="demo-section">
+        <h1 class="demo-title">Botón "Agendar Cita" Profesional</h1>
+        <p class="demo-subtitle">Diseño moderno y responsive para clínicas odontológicas</p>
+        
+        <div class="btn-showcase">
+            <div class="btn-example">
+                <h4>Versión Azul Clínica</h4>
+                <a href="#" class="btn-agar-cita animate">
+                    <i class="fas fa-calendar-check"></i>
+                    Agendar Cita
+                </a>
+            </div>
+            
+            <div class="btn-example">
+                <h4>Versión Verde WhatsApp</h4>
+                <a href="https://wa.me/573112617515?text=Hola,%20quiero%20agendar%20una%20cita" 
+                   target="_blank" class="btn-agar-cita btn-verde pulse">
+                    <i class="fab fa-whatsapp"></i>
+                    Agendar por WhatsApp
+                </a>
+            </div>
+            
+            <div class="btn-example">
+                <h4>Versión con Teléfono</h4>
+                <a href="tel:+5512345678" class="btn-agar-cita">
+                    <i class="fas fa-phone"></i>
+                    Llamar Ahora
+                </a>
+            </div>
+        </div>
+        
+        <div class="code-example">
+            <strong>HTML:</strong><br>
+            &lt;a href="#" class="btn-agar-cita"&gt;<br>
+            &nbsp;&nbsp;&lt;i class="fas fa-calendar-check"&gt;&lt;/i&gt;<br>
+            &nbsp;&nbsp;Agendar Cita<br>
+            &lt;/a&gt;<br><br>
+            
+            <strong>CSS (incluye efectos hover y responsive):</strong><br>
+            /* Ver archivo btn-agar-cita.css */
+        </div>
+    </div>
+    
+    <div class="demo-section">
+        <h2 class="demo-title">Características del Diseño</h2>
+        <ul style="color: var(--gris-oscuro); line-height: 1.8;">
+            <li>✅ Gradiente azul clínico profesional</li>
+            <li>✅ Bordes redondeados (50px radius)</li>
+            <li>✅ Texto blanco con buen contraste</li>
+            <li>✅ Sombra suave con efecto hover</li>
+            <li>✅ Animación hover (crece y cambia color)</li>
+            <li>✅ Padding amplio para mejor UX</li>
+            <li>✅ Centrado y responsive</li>
+            <li>✅ Efecto de brillo sutil al hover</li>
+            <li>✅ Iconos animados</li>
+            <li>✅ Optimizado para móvil</li>
+        </ul>
+    </div>
+</body>
+</html>

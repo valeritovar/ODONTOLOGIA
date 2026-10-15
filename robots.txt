@@ -1,0 +1,30 @@
+# Robots.txt para Clínica Dental Sonrisa Perfecta
+# https://[tu-sitio-web.com]/robots.txt
+
+User-agent: *
+Allow: /
+
+# Priorizar páginas importantes
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://[tu-sitio-web.com]/sitemap.xml
+
+# Bloquear acceso a archivos del sistema
+Disallow: /*.json$
+Disallow: /*.log$
+Disallow: /private/
+Disallow: /temp/
+Disallow: /admin/
+
+# Permitir acceso a recursos importantes
+Allow: /images/
+Allow: /css/
+Allow: /js/
+Allow: *.css
+Allow: *.js
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.png
+Allow: *.svg
+Allow: *.ico

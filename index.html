@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Dental Sonrisa Perfecta | Odontología de Excelencia en [Tu Ciudad]</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Clínica Dental Sonrisa Perfecta ofrece tratamientos odontológicos de excelencia. Blanqueamiento dental, ortodoncia, implantes y más. Agenda tu cita hoy mismo. WhatsApp: 3112617515">
+    <meta name="keywords" content="clínica dental, odontología, dentista, blanqueamiento dental, ortodoncia, implantes dentales, limpieza dental, sonrisa perfecta, [tu ciudad], consulta dental">
+    <meta name="author" content="Clínica Dental Sonrisa Perfecta">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="es">
+    <meta name="geo.region" content="CO">
+    <meta name="geo.placename" content="[Tu Ciudad]">
+    <meta name="ICBM" content="[Latitud], [Longitud]">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Clínica Dental Sonrisa Perfecta | Odontología de Excelencia">
+    <meta property="og:description" content="Ofrecemos tratamientos odontológicos de excelencia con tecnología de punta. Blanqueamiento, ortodoncia, implantes y más.">
+    <meta property="og:image" content="https://[tu-sitio-web.com]/images/3.png">
+    <meta property="og:image:alt" content="Clínica Dental Sonrisa Perfecta - Interior moderno">
+    <meta property="og:url" content="https://[tu-sitio-web.com]">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_CO">
+    <meta property="og:site_name" content="Clínica Dental Sonrisa Perfecta">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Clínica Dental Sonrisa Perfecta | Odontología de Excelencia">
+    <meta name="twitter:description" content="Ofrecemos tratamientos odontológicos de excelencia con tecnología de punta. Agenda tu cita hoy.">
+    <meta name="twitter:image" content="https://[tu-sitio-web.com]/images/3.png">
+    <meta name="twitter:image:alt" content="Clínica Dental Sonrisa Perfecta">
+    
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Dentist",
+        "name": "Clínica Dental Sonrisa Perfecta",
+        "description": "Clínica dental que ofrece tratamientos odontológicos de excelencia con tecnología de punta",
+        "url": "https://[tu-sitio-web.com]",
+        "telephone": "+57 3112617515",
+        "email": "info@sonrisaperfecta.com",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "[Tu Dirección]",
+            "addressLocality": "[Tu Ciudad]",
+            "addressRegion": "[Tu Departamento]",
+            "postalCode": "[Código Postal]",
+            "addressCountry": "CO"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": [Latitud],
+            "longitude": [Longitud]
+        },
+        "openingHours": "Mo,Tu,We,Th,Fr 08:00-18:00",
+        "priceRange": "$$$",
+        "paymentAccepted": "Cash, Credit Card, Debit Card",
+        "currenciesAccepted": "COP",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Servicios Dentales",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Limpieza Dental",
+                        "description": "Profilaxis profesional para eliminar placa y sarro"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Blanqueamiento Dental",
+                        "description": "Técnicas avanzadas de blanqueamiento dental"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Ortodoncia",
+                        "description": "Tratamientos ortodónticos con brackets y alineadores"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Implantes Dentales",
+                        "description": "Reconstrucción dental con implantes de titanio"
+                    }
+                }
+            ]
+        }
+    }
+    </script>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://[tu-sitio-web.com]">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap Icons Local -->
+    <link rel="stylesheet" href="bootstrap-icons.css">
+    
+    <!-- Fallback Script para detectar si los iconos cargaron -->
+    <script>
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                var testIcon = document.createElement('i');
+                testIcon.className = 'bi bi-whatsapp';
+                testIcon.style.position = 'absolute';
+                testIcon.style.left = '-9999px';
+                document.body.appendChild(testIcon);
+                
+                var styles = window.getComputedStyle(testIcon);
+                var fontFamily = styles.getPropertyValue('font-family');
+                
+                if (!fontFamily.includes('bootstrap-icons')) {
+                    document.body.classList.add('no-bootstrap-icons');
+                    console.log('Bootstrap Icons no cargó, usando emojis fallback');
+                }
+                
+                document.body.removeChild(testIcon);
+            }, 1000);
+        });
+    </script>
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="images/4.png" as="image">
+    <link rel="preload" href="images/3.png" as="image">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <i class="bi bi-heart-pulse"></i>
+                    <span>Sonrisa Perfecta</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                    <li><a href="#confianza" class="nav-link">Por Qué Confiar</a></li>
+                    <li><a href="#antes-despues" class="nav-link">Resultados</a></li>
+                    <li><a href="#testimonios" class="nav-link">Testimonios</a></li>
+                    <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Tu sonrisa en las mejores manos</h1>
+            <p>Ofrecemos tratamientos odontológicos de excelencia con tecnología de punta y un equipo de profesionales comprometidos con tu salud bucal</p>
+            <div class="hero-buttons">
+                <a href="https://wa.me/3112617515?text=Hola,%20quiero%20agendar%20una%20cita" target="_blank" class="btn-whatsapp-hero" style="background: #25d366; color: white; padding: 18px 35px; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 1.1rem; display: inline-flex; align-items: center; gap: 10px; box-shadow: 0 8px 25px rgba(37, 211, 102, 0.3);">
+                    <i class="bi bi-whatsapp"></i>
+                    Agenda tu cita por WhatsApp
+                </a>
+                <a href="#servicios" class="btn-secondary-hero" style="background: transparent; color: white; padding: 18px 35px; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 1.1rem; border: 2px solid white; display: inline-block;">Conocer Más</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/4.png" alt="Dentista profesional trabajando" class="hero-img" loading="lazy">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <h2 class="section-title">Nuestros Servicios</h2>
+            <p class="section-subtitle">Ofrecemos una amplia gama de tratamientos odontológicos para toda la familia</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="bi bi-activity"></i>
+                    </div>
+                    <h3>Limpieza Dental</h3>
+                    <p>Eliminación de placa bacteriana y sarro para mantener tus encías sanas</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="bi bi-heart-pulse"></i>
+                    </div>
+                    <h3>Blanqueamiento Dental</h3>
+                    <p>Técnica avanzada para obtener una sonrisa más blanca y brillante</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="bi bi-shield-check"></i>
+                    </div>
+                    <h3>Ortodoncia</h3>
+                    <p>Corrección de la posición de tus dientes para una sonrisa perfecta</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="bi bi-person-workspace"></i>
+                    </div>
+                    <h3>Implantes Dentales</h3>
+                    <p>Solución permanente para reemplazar dientes perdidos de forma natural</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="bi bi-shield-lock"></i>
+                    </div>
+                    <h3>Endodoncia</h3>
+                    <p>Tratamiento de conductos para salvar dientes afectados por infecciones o daños severos.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="bi bi-heart"></i>
+                    </div>
+                    <h3>Odontopediatría</h3>
+                    <p>Cuidado dental especializado para niños, ensuring una experiencia positiva y educativa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Confidence Section -->
+    <section id="confianza" class="confidence">
+        <div class="container">
+            <h2 class="section-title">Por Qué Confiar en Nosotros</h2>
+            <p class="section-subtitle">La experiencia y el respaldo de miles de pacientes sonries hablan por nosotros</p>
+            
+            <div class="confidence-grid">
+                <div class="confidence-item">
+                    <div class="confidence-icon">
+                        <i class="bi bi-people"></i>
+                    </div>
+                    <div class="confidence-number">+500</div>
+                    <div class="confidence-label">Pacientes Atendidos</div>
+                </div>
+                
+                <div class="confidence-item">
+                    <div class="confidence-icon">
+                        <i class="bi bi-award"></i>
+                    </div>
+                    <div class="confidence-number">15+</div>
+                    <div class="confidence-label">Años de Experiencia</div>
+                </div>
+                
+                <div class="confidence-item">
+                    <div class="confidence-icon">
+                        <i class="bi bi-heart-pulse"></i>
+                    </div>
+                    <div class="confidence-number">10,000+</div>
+                    <div class="confidence-label">Sonrisas Transformadas</div>
+                </div>
+                
+                <div class="confidence-item">
+                    <div class="confidence-icon">
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <div class="confidence-number">4.9/5</div>
+                    <div class="confidence-label">Calificación Promedio</div>
+                </div>
+            </div>
+            
+            <div class="confidence-features">
+                <div class="confidence-feature">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Tecnología de última generación</span>
+                </div>
+                <div class="confidence-feature">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Equipo de especialistas certificados</span>
+                </div>
+                <div class="confidence-feature">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Atención personalizada y humana</span>
+                </div>
+                <div class="confidence-feature">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Instalaciones modernas y cómodas</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="nosotros" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Sobre Nuestra Clínica</h2>
+                    <p>Con más de 15 años de experiencia, Clínica Dental Sonrisa Perfecta se ha consolidado como un referente en la atención odontológica de excelencia.</p>
+                    <p>Nuestro equipo de profesionales está comprometido con proporcionar tratamientos personalizados utilizando la tecnología más avanzada del mercado.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="bi bi-check-circle"></i>
+                            <span>Tecnología de última generación</span>
+                        </div>
+                        <div class="feature">
+                            <i class="bi bi-check-circle"></i>
+                            <span>Equipo de especialistas certificados</span>
+                        </div>
+                        <div class="feature">
+                            <i class="bi bi-check-circle"></i>
+                            <span>Atención personalizada y humana</span>
+                        </div>
+                        <div class="feature">
+                            <i class="bi bi-check-circle"></i>
+                            <span>Instalaciones modernas y cómodas</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/3.png" alt="Interior moderno de la clínica dental" class="about-img" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Before After Section -->
+    <section id="antes-despues" class="before-after">
+        <div class="container">
+            <h2 class="section-title">Resultados Reales de Nuestros Pacientes</h2>
+            <p class="section-subtitle">La transformación de sonrisas que cambian vidas</p>
+            
+            <div class="before-after-grid">
+                <div class="before-after-item">
+                    <div class="comparison-container">
+                        <div class="before-image">
+                            <img src="images/1.jpg" alt="Antes del blanqueamiento dental" loading="lazy">
+                            <div class="image-label">Antes</div>
+                        </div>
+                        <div class="after-image">
+                            <img src="images/11.jpg" alt="Después del blanqueamiento dental" loading="lazy">
+                            <div class="image-label">Después</div>
+                        </div>
+                    </div>
+                    <div class="treatment-info">
+                        <h4>Blanqueamiento Dental</h4>
+                        <p>6 sesiones de blanqueamiento profesional</p>
+                    </div>
+                </div>
+                
+                <div class="before-after-item">
+                    <div class="comparison-container">
+                        <div class="before-image">
+                            <img src="images/2.jpg" alt="Antes del tratamiento de ortodoncia" loading="lazy">
+                            <div class="image-label">Antes</div>
+                        </div>
+                        <div class="after-image">
+                            <img src="images/22.jpg" alt="Después del tratamiento de ortodoncia" loading="lazy">
+                            <div class="image-label">Después</div>
+                        </div>
+                    </div>
+                    <div class="treatment-info">
+                        <h4>Ortodoncia con Brackets</h4>
+                        <p>18 meses de tratamiento ortodóntico</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonios" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Testimonios de Pacientes</h2>
+            <p class="section-subtitle">La opinión de nuestros pacientes es nuestra mejor carta de presentación</p>
+            <div class="testimonials-slider">
+                <div class="testimonial-card active">
+                    <div class="stars">
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <p>"Excelente atención, el doctor fue muy profesional y amable. Las instalaciones son modernas y limpias. ¡Mi sonrisa nunca se vio mejor!"</p>
+                    <div class="patient-info">
+                        <img src="https://picsum.photos/seed/patient1/50/50.jpg" alt="Paciente" class="patient-avatar">
+                        <div>
+                            <h4>Maria González</h4>
+                            <p>Paciente desde 2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <p>"Llevo años siendo paciente y siempre he recibido un trato excepcional. Recomiendo esta clínica sin dudarlo."</p>
+                    <div class="patient-info">
+                        <img src="https://picsum.photos/seed/patient2/50/50.jpg" alt="Paciente" class="patient-avatar">
+                        <div>
+                            <h4>Juan Pérez</h4>
+                            <p>Paciente desde 2020</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <p>"Mis hijos siempre se sienten cómodos aquí. El equipo de odontopediatría es fantástico y sabe cómo tratar a los niños."</p>
+                    <div class="patient-info">
+                        <img src="https://picsum.photos/seed/patient3/50/50.jpg" alt="Paciente" class="patient-avatar">
+                        <div>
+                            <h4>Ana Rodríguez</h4>
+                            <p>Paciente desde 2021</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section - Llamada a la Acción Fuerte -->
+    <section id="cta" class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Agenda tu cita hoy mismo</h2>
+                <p class="cta-subtitle">No esperes más para tener la sonrisa que siempre has deseado. Nuestro equipo de especialistas está listo para atenderte.</p>
+                
+                <div class="cta-buttons">
+                    <a href="https://wa.me/3112617515?text=Hola,%20quiero%20agendar%20una%20cita" target="_blank" class="cta-primary-btn">
+                        <i class="bi bi-whatsapp"></i>
+                        <span>Agendar por WhatsApp</span>
+                        <small>Respuesta inmediata</small>
+                    </a>
+                    
+                    <a href="#contacto" class="cta-secondary-btn">
+                        <i class="bi bi-telephone"></i>
+                        <span>Llamar ahora</span>
+                        <small>(55) 1234-5678</small>
+                    </a>
+                </div>
+                
+                <div class="cta-benefits">
+                    <div class="benefit-item">
+                        <i class="bi bi-check-circle"></i>
+                        <span>Primera consulta gratuita</span>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="bi bi-check-circle"></i>
+                        <span>Financiamiento disponible</span>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="bi bi-check-circle"></i>
+                        <span>Garantía en tratamientos</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <p class="section-subtitle">Agenda tu cita o contáctanos para cualquier consulta</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="bi bi-geo-alt"></i>
+                        <div>
+                            <h3>Dirección</h3>
+                            <p>Av. Principal #123, Colonia Centro<br>Ciudad de México, CP 06000</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="bi bi-telephone"></i>
+                        <div>
+                            <h3>Teléfono</h3>
+                            <p>(55) 1234-5678<br>(55) 8765-4321</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="bi bi-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@sonrisaperfecta.com<br>citas@sonrisaperfecta.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="bi bi-clock"></i>
+                        <div>
+                            <h3>Horario</h3>
+                            <p>Lunes - Viernes: 9:00 AM - 8:00 PM<br>Sábados: 9:00 AM - 2:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="appointmentForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Nombre completo" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Teléfono" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="service" name="service" required>
+                                <option value="">Selecciona un servicio</option>
+                                <option value="limpieza">Limpieza Dental</option>
+                                <option value="blanqueamiento">Blanqueamiento Dental</option>
+                                <option value="ortodoncia">Ortodoncia</option>
+                                <option value="implantes">Implantes Dentales</option>
+                                <option value="endodoncia">Endodoncia</option>
+                                <option value="odontopediatria">Odontopediatría</option>
+                                <option value="consulta">Consulta general</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Mensaje adicional (opcional)" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn-agar-cita animate">
+                            <i class="bi bi-calendar-check"></i>
+                            Agendar Cita
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="bi bi-heart-pulse"></i>
+                        <span>Sonrisa Perfecta</span>
+                    </div>
+                    <p>Tu sonrisa es nuestra prioridad. Ofrecemos atención odontológica de excelencia con tecnología avanzada y personal calificado.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/profile.php?id=61582143061538&locale=es_LA" target="_blank" title="Síguenos en Facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="#" title="Síguenos en Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" title="Síguenos en Twitter"><i class="bi bi-twitter"></i></a>
+                        <a href="#" title="Conecta en LinkedIn"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#confianza">Por Qué Confiar</a></li>
+                        <li><a href="#antes-despues">Resultados</a></li>
+                        <li><a href="#testimonios">Testimonios</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Servicios</h3>
+                    <ul>
+                        <li><a href="#servicios">Limpieza Dental</a></li>
+                        <li><a href="#servicios">Blanqueamiento</a></li>
+                        <li><a href="#servicios">Ortodoncia</a></li>
+                        <li><a href="#servicios">Implantes</a></li>
+                        <li><a href="#servicios">Endodoncia</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Suscríbete para recibir consejos de salud dental y promociones exclusivas.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Tu correo electrónico">
+                        <button type="submit"><i class="bi bi-send"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Clínica Dental Sonrisa Perfecta. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Social Media Fixed Buttons -->
+    <div class="social-fixed-buttons">
+        <!-- WhatsApp Button -->
+        <a href="https://wa.me/3112617515?text=Hola,%20quiero%20agendar%20una%20cita" target="_blank" class="social-fixed-btn whatsapp-btn">
+            <i class="bi bi-whatsapp"></i>
+            <span class="social-tooltip">Hola, quiero agendar una cita</span>
+        </a>
+        
+        <!-- Facebook Button -->
+        <a href="https://www.facebook.com/profile.php?id=61582143061538&locale=es_LA" target="_blank" class="social-fixed-btn facebook-btn">
+            <i class="bi bi-facebook"></i>
+            <span class="social-tooltip">Visítanos en Facebook</span>
+        </a>
+        
+        <!-- Agendar Cita Button -->
+        <a href="#contacto" class="social-fixed-btn appointment-btn">
+            <i class="bi bi-calendar-check"></i>
+            <span class="social-tooltip">Agendar Cita</span>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

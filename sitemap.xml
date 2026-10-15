@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    
+    <!-- Página Principal -->
+    <url>
+        <loc>https://[tu-sitio-web.com]/</loc>
+        <lastmod>2024-04-24</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <!-- Imágenes importantes -->
+    <url>
+        <loc>https://[tu-sitio-web.com]/images/4.png</loc>
+        <lastmod>2024-04-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://[tu-sitio-web.com]/images/4.png</image:loc>
+            <image:title>Dentista profesional trabajando</image:title>
+            <image:caption>Dentista profesional de la Clínica Sonrisa Perfecta</image:caption>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://[tu-sitio-web.com]/images/3.png</loc>
+        <lastmod>2024-04-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://[tu-sitio-web.com]/images/3.png</image:loc>
+            <image:title>Interior moderno de la clínica dental</image:title>
+            <image:caption>Instalaciones modernas de la Clínica Sonrisa Perfecta</image:caption>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://[tu-sitio-web.com]/images/1.jpg</loc>
+        <lastmod>2024-04-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://[tu-sitio-web.com]/images/1.jpg</image:loc>
+            <image:title>Antes del blanqueamiento dental</image:title>
+            <image:caption>Resultado antes del tratamiento de blanqueamiento dental</image:caption>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://[tu-sitio-web.com]/images/11.jpg</loc>
+        <lastmod>2024-04-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://[tu-sitio-web.com]/images/11.jpg</image:loc>
+            <image:title>Después del blanqueamiento dental</image:title>
+            <image:caption>Resultado después del tratamiento de blanqueamiento dental</image:caption>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://[tu-sitio-web.com]/images/2.jpg</loc>
+        <lastmod>2024-04-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://[tu-sitio-web.com]/images/2.jpg</image:loc>
+            <image:title>Antes del tratamiento de ortodoncia</image:title>
+            <image:caption>Resultado antes del tratamiento de ortodoncia</image:caption>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://[tu-sitio-web.com]/images/22.jpg</loc>
+        <lastmod>2024-04-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://[tu-sitio-web.com]/images/22.jpg</image:loc>
+            <image:title>Después del tratamiento de ortodoncia</image:title>
+            <image:caption>Resultado después del tratamiento de ortodoncia</image:caption>
+        </image:image>
+    </url>
+    
+</urlset>

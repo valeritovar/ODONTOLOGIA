@@ -1,0 +1,71 @@
+/* Bootstrap Icons Local - Icons for Clínica Dental Sonrisa Perfecta */
+/* Solo los iconos necesarios para el sitio */
+
+@font-face {
+  font-family: "bootstrap-icons";
+  src: url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/fonts/bootstrap-icons.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/fonts/bootstrap-icons.woff") format("woff");
+}
+
+/* Base Bootstrap Icons Class */
+.bi {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: "bootstrap-icons", sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 1;
+  text-rendering: auto;
+}
+
+/* Iconos específicos necesarios para el sitio */
+.bi-whatsapp::before { content: "\f618"; }
+.bi-facebook::before { content: "\f334"; }
+.bi-messenger::before { content: "\f629"; }
+.bi-heart-pulse::before { content: "\f642"; }
+.bi-activity::before { content: "\f535"; }
+.bi-people::before { content: "\f4d3"; }
+.bi-person-workspace::before { content: "\f6c9"; }
+.bi-calendar-check::before { content: "\f26e"; }
+.bi-telephone::before { content: "\f5a8"; }
+.bi-envelope::before { content: "\f32f"; }
+.bi-geo-alt::before { content: "\f3e5"; }
+.bi-star::before { content: "\f586"; }
+.bi-check-circle::before { content: "\f268"; }
+.bi-list::before { content: "\f349"; }
+.bi-instagram::before { content: "\f436"; }
+.bi-twitter::before { content: "\f5ef"; }
+.bi-linkedin::before { content: "\f472"; }
+.bi-send::before { content: "\f30d"; }
+.bi-award::before { content: "\f587"; }
+.bi-shield-check::before { content: "\f242"; }
+.bi-shield-lock::before { content: "\f4a2"; }
+.bi-heart::before { content: "\f4be"; }
+.bi-clock::before { content: "\f550"; }
+
+/* Fallback con emojis si las fuentes no cargan */
+.no-bootstrap-icons .bi-whatsapp::before { content: "📱"; font-family: sans-serif; }
+.no-bootstrap-icons .bi-facebook::before { content: "📘"; font-family: sans-serif; }
+.no-bootstrap-icons .bi-messenger::before { content: "💬"; font-family: sans-serif; }
+.no-bootstrap-icons .bi-heart-pulse::before { content: "❤️"; font-family: sans-serif; }
+.no-bootstrap-icons .bi-activity::before { content: "🦷"; font-family: sans-serif; }
+.no-bootstrap-icons .bi-people::before { content: "👥"; font-family: sans-serif; }
+.no-bootstrap-icons .bi-person-workspace::before { content: "👨‍⚕️"; font-family: sans-serif; }
+.no-bootstrap-icons .bi-calendar-check::before { content: "📅"; font-family: sans-serif; }
+.no-bootstrap-icons .bi-telephone::before { content: "📞"; font-family: sans-serif; }
+.no-bootstrap-icons .bi-envelope::before { content: "✉️"; font-family: sans-serif; }
+.no-bootstrap-icons .bi-geo-alt::before { content: "📍"; font-family: sans-serif; }
+.no-bootstrap-icons .bi-star::before { content: "⭐"; font-family: sans-serif; }
+.no-bootstrap-icons .bi-check-circle::before { content: "✅"; font-family: sans-serif; }
+.no-bootstrap-icons .bi-list::before { content: "☰"; font-family: sans-serif; }
+.no-bootstrap-icons .bi-instagram::before { content: "📷"; font-family: sans-serif; }
+.no-bootstrap-icons .bi-twitter::before { content: "🐦"; font-family: sans-serif; }
+.no-bootstrap-icons .bi-linkedin::before { content: "💼"; font-family: sans-serif; }
+.no-bootstrap-icons .bi-send::before { content: "✈️"; font-family: sans-serif; }
+.no-bootstrap-icons .bi-award::before { content: "�"; font-family: sans-serif; }
+.no-bootstrap-icons .bi-shield-check::before { content: "🛡️"; font-family: sans-serif; }
+.no-bootstrap-icons .bi-shield-lock::before { content: "🔒"; font-family: sans-serif; }
+.no-bootstrap-icons .bi-heart::before { content: "❤️"; font-family: sans-serif; }
+.no-bootstrap-icons .bi-clock::before { content: "⏰"; font-family: sans-serif; }
